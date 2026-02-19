@@ -13,9 +13,12 @@
 
 ## Roadmap (Initial)
 
-- [ ] **Sovereign Agent Chat:** Enable individual agents (Ticker, Scout, etc.) to chat directly in Telegram groups.
-- [ ] **Data Pipeline Optimization:** Improve real-time data ingestion for trading signals.
-- [ ] **Security Hardening:** Review and enhance default security postures for financial agent deployment.
+- [x] **Sovereign Agent Chat:** Enable individual agents (Ticker, Scout, etc.) to chat directly in Telegram groups.
+- [ ] **Data Pipeline Optimization:** Improve real-time data ingestion for trading signals. (Status: 🟡 Live but needs hardening; occasional 502s).
+- [ ] **Security Hardening (CRITICAL):**
+    - [ ] **Secrets Management:** Move plaintext API keys to secure storage/env vars.
+    - [ ] **Risk Controls:** Implement global portfolio kill-switch and max drawdown limits.
+    - [ ] **Daily Learning Loop:** Automate "lesson extraction" to update agent strategies daily.
 
 ---
 *Signed,*
