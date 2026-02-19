@@ -1,0 +1,16 @@
+# Default owner for all files in this fork.
+* @wayne-comerford
+
+# Core runtime and extension surfaces.
+/src/ @wayne-comerford
+/extensions/ @wayne-comerford
+/packages/ @wayne-comerford
+
+# Product surfaces.
+/apps/ @wayne-comerford
+/ui/ @wayne-comerford
+
+# Delivery and governance.
+/.github/workflows/ @wayne-comerford
+/docs/ @wayne-comerford
+
